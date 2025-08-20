@@ -1,0 +1,312 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Agile",
+      "description": "Learn the basics of how cross-functional teams plan, build, and deliver software iteratively.",
+      "estimatedEffort": "5 hours",
+      "difficulty": "Medium, 😅 Coffee’s Lukewarm",
+      "personalNotesUrl": "https://docs.google.com/document/d/117qIyFISiEhTgGNi3sEZewtdrf41dX0G/edit?usp=sharing&ouid=102160900868137478085&rtpof=true&sd=true ",
+      "officialDocsUrl": "https://www.scrum.org/resources?field_resource_tags_target_id=All&type=71",
+      "linkedInVideoUrl": "https://www.scrum.org/resources/introductory-video-series-scrum",
+      "review": "Learning about Agile methodologies was easy and simple to implement.",
+      "tags": ["agile", "teamwork", "process"],
+      "img": "agile.png"
+    },
+    {
+      "id": 2,
+      "title": "Azure DevOps",
+      "description": "Learn how to use Azure DevOps to explore pipelines, boards, repos, and CI/CD fundamentals.",
+      "estimatedEffort": "10 hours",
+      "difficulty": "Hard, 🔥 Coffee’s Cold & You’re Debugging",
+      "personalNotesUrl": "https://docs.google.com/document/d/1r39EV3ouLDOmXdXTkBWaF2HGlOs6GMhs/edit?usp=sharing&ouid=102160900868137478085&rtpof=true&sd=true ",
+      "officialDocsUrl": "https://learn.microsoft.com/en-us/azure/devops/?view=azure-devops",
+      "linkedInVideoUrl": "https://www.youtube.com/watch?v=DoWhZO7nbCY",
+      "review": "Azure DevOps has a simple layout and is easy to navigate. A lot of features and integrations so make sure to explore.",
+      "tags": ["devops", "ci/cd", "azure"],
+      "img": "azure.png"
+    },
+    {
+      "id": 3,
+      "title": "Web APIs with ASP.NET Core",
+      "description": "Learn how to build C# Web APIs in Visual Studio, following RESTful principles and industry best practices.",
+      "estimatedEffort": "10 hours",
+      "difficulty": "Hard, 🔥 Coffee’s Cold & You’re Debugging",
+      "personalNotesUrl": "https://docs.google.com/document/d/19ZYfJplsNDNUOYnqtPPFjTFc37GMPcMr/edit?usp=sharing&ouid=102160900868137478085&rtpof=true&sd=true",
+      "officialDocsUrl": "https://learn.microsoft.com/en-us/training/modules/build-web-api-aspnet-core/1-introduction",
+      "linkedInVideoUrl": "https://www.linkedin.com/learning/building-web-apis-with-asp-dot-net-core-8/welcome",
+      "swaggerUrl": "https://localhost:7062/swagger/index.html",
+      "review": "C# Web APIs are challenging; it's a lot of moving parts but once you get the hang of it, it's very rewarding.",
+      "tags": ["c#", ".net", "webapi"],
+      "codeSnippet": "[HttpGet] public IEnumerable<Course> GetCourses() { }",
+      "img": "api.png"
+    },
+    {
+      "id": 4,
+      "title": "Angular Installation and Setup",
+      "description": " This course guides you through the essential setup steps and introduces the core concepts of Angular.",
+      "estimatedEffort": "1 hour",
+      "difficulty": "Easy,☕ Coffee’s Still Hot ",
+      "personalNotesUrl": "https://docs.google.com/document/d/1-52OGGhJmTpUNG6qcbvH6O5-9JORkngw/edit?usp=sharing&ouid=102160900868137478085&rtpof=true&sd=true",
+      "officialDocsUrl": "https://angular.dev/installation",
+      "linkedInVideoUrl": "https://www.linkedin.com/learning/learning-angular-25357291/learning-angular?resume=false&u=262938922",
+      "review": "I feel the setup instructions are clear and straightforward. I had initial confusion between traditional and standalone components.",
+      "tags": ["angular ", "setup ", "cli ", "environment "],
+      "codeSnippet": "ng new angular-app-name --routing",
+      "img": "favicon.ico"
+    },
+    {
+      "id": 5,
+      "title": "Angular Traditional Components",
+      "description": "Learn how traditional (non-standalone) Angular components form the foundation of application structure and UI design.",
+      "estimatedEffort": "3 hours",
+      "difficulty": "Medium, 😅 Coffee’s Lukewarm ",
+      "personalNotesUrl": "https://docs.google.com/document/d/1OfHvv587BscnDtRWYEAm7EZk7PmZItS0/edit?usp=sharing&ouid=102160900868137478085&rtpof=true&sd=true",
+      "officialDocsUrl": "https://angular.dev/guide/components",
+      "linkedInVideoUrl": "https://www.linkedin.com/learning/learning-angular-25357291/learning-angular?resume=false&u=262938922",
+      "review": "Traditional components are easy to understand. It is a good introduction into Angular's structure.",
+      "tags": ["angular", "components", "architecture"],
+      "codeSnippet": "ng new angular-app-name --no-standalone",
+      "img": "favicon.ico"
+    },
+    {
+      "id": 6,
+      "title": "Angular Standalone Components",
+      "description": "Learn how standalone components simplify Angular development by removing the need for NgModules.",
+      "estimatedEffort": "3 hours",
+      "difficulty": "Medium, 😅 Coffee’s Lukewarm ",
+      "personalNotesUrl": "https://docs.google.com/document/d/1kRTMKZgMisNQkkyJVgjuVX_gl7OrQ3wV/edit?usp=sharing&ouid=102160900868137478085&rtpof=true&sd=true ",
+      "officialDocsUrl": "https://angular.dev/guide/ngmodules/overview",
+      "linkedInVideoUrl": "https://www.linkedin.com/learning/learning-angular-25357291/learning-angular?resume=false&u=262938922",
+      "review": "Standalone components simplified Angular’s structure by eliminating the need for NgModules, but it took me a little time to adjust to the new workflow.",
+      "tags": ["angular", "standalone", "modules"],
+      "codeSnippet": "ng new angular-app-name --routing",
+      "img": "favicon.ico"
+    },
+    {
+      "id": 7,
+      "title": "Angular Binding",
+      "description": "Learn how data binding links your application’s logic to the user interface, enabling dynamic and responsive experiences.",
+      "estimatedEffort": "10 hours",
+      "difficulty": "Medium, 😅 Coffee’s Lukewarm",
+      "personalNotesUrl": "https://docs.google.com/document/d/1hfgNiWdRv-m4cFGdHFsIBQ3j6CDJGFK2/edit",
+      "officialDocsUrl": "https://angular.dev/guide/templates/binding",
+      "linkedInVideoUrl": "https://www.linkedin.com/learning/learning-angular-25357291/learning-angular?resume=false&u=262938922",
+      "review": "Binding required some extra attention at first, I really had to focus on the difference between property and event binding.",
+      "tags": ["angular", "binding", "data"],
+      "codeSnippet": "<[src]=\"imageUrl\" (click)=\"onClick()\">",
+      "img": "favicon.ico"
+    },
+    {
+      "id": 8,
+      "title": "Angular Dependency Injection",
+      "description": "Explore how Angular’s dependency injection system simplifies code management and promotes modular design.",
+      "estimatedEffort": "9 hours",
+      "difficulty": "Hard, 🔥 Coffee’s Cold & You’re Debugging",
+      "personalNotesUrl": "https://docs.google.com/document/d/1gHF_1D_4RADLTX0uPBIup-MKv53oFscU/edit?usp=sharing&ouid=102160900868137478085&rtpof=true&sd=true ",
+      "officialDocsUrl": "https://angular.dev/guide/di",
+      "linkedInVideoUrl": "https://www.linkedin.com/learning/learning-angular-25357291/learning-angular?resume=false&u=262938922",
+      "review": "Dependency Injection took a bit of time to understand, but once I understood how it interacted with components, it clicked.",
+      "tags": ["angular", "di", "services"],
+      "codeSnippet": "constructor(private http: HttpClient) {}",
+      "img": "favicon.ico"
+    },
+    {
+      "id": 9,
+      "title": "Angular Observables",
+      "description": "Learn how to create and subscribe to observables, and see how they integrate with Angular services and HTTP requests.",
+      "estimatedEffort": "10 hours",
+      "difficulty": "Medium, 😅 Coffee’s Lukewarm",
+      "personalNotesUrl": "https://docs.google.com/document/d/1JNSJkcXOmvsABIAclZSNHbHP62YdXO8O/edit?usp=sharing&ouid=102160900868137478085&rtpof=true&sd=true",
+      "officialDocsUrl": "https://angular.dev/guide/http/making-requests#http-observables",
+      "linkedInVideoUrl": "https://www.linkedin.com/learning/learning-angular-25357291/learning-angular?resume=false&u=262938922",
+      "review": "Observables were a challenging concept initially, but understanding how they interact with services made things clearer ",
+      "tags": ["angular", "observables", "http"],
+      "codeSnippet": "getCourses(): Observable<Course[]> {}",
+      "img": "favicon.ico"
+    },
+    {
+      "id": 10,
+      "title": "Angular Interface",
+      "description": "Learn how interfaces in Angular help define the shape of data and enforce type safety.",
+      "estimatedEffort": "1 hour",
+      "difficulty": "Easy, ☕ Coffee’s Still Hot!",
+      "personalNotesUrl": "https://docs.google.com/document/d/1hWhHvNRi0GyO0rNgt-smEp_ihCapk7xV/edit?usp=sharing&ouid=102160900868137478085&rtpof=true&sd=true ",
+      "officialDocsUrl": "https://angular.dev/cli/generate/interface",
+      "linkedInVideoUrl": "https://www.linkedin.com/learning/learning-angular-25357291/learning-angular?resume=false&u=262938922",
+      "review": "Interfaces were one of the more straightforward topics. They helped define the structure of data and improved code consistency.",
+      "tags": ["model", "interfaces", "type"],
+      "codeSnippet": "interface Course { title: string; estimatedEffort: string; }",
+      "img": "favicon.ico"
+    },
+    {
+      "id": 11,
+      "title": "Angular Routing and Navigation",
+      "description": "Learn how Angular's routing and navigation system works to build single-page apps with smooth navigation and dynamic content.",
+      "estimatedEffort": "10 hours",
+      "difficulty": "Hard, 🔥 Coffee’s Cold & You’re Debugging",
+      "personalNotesUrl": "https://docs.google.com/document/d/1ikExVj68qet5YcV3HbahJqlTJ56yeKhi/edit?usp=sharing&ouid=102160900868137478085&rtpof=true&sd=true ",
+      "officialDocsUrl": "https://angular.dev/guide/routing",
+      "linkedInVideoUrl": "https://www.linkedin.com/learning/learning-angular-25357291/learning-angular?resume=false&u=262938922",
+      "review": "Routing took some practice. Once everything was connected properly, the flow made a lot more sense",
+      "tags": ["angular", "routing", "navigation"],
+      "codeSnippet": "path: 'dashboard', component: DashboardComponent",
+      "img": "favicon.ico"
+    },
+    {
+      "id": 12,
+      "title": "Angular Reactive Forms",
+      "description": "Learn how reactive forms make it easier to build dynamic and responsive forms in Angular.",
+      "estimatedEffort": "5 hours",
+      "difficulty": "Hard, 🔥 Coffee’s Cold & You’re Debugging",
+      "personalNotesUrl": "https://docs.google.com/document/d/1blgl2LGnV5PVpcK2qLvvrm7tyy28jPo-/edit?usp=sharing&ouid=102160900868137478085&rtpof=true&sd=true ",
+      "officialDocsUrl": "https://angular.dev/guide/forms",
+      "linkedInVideoUrl": "https://www.linkedin.com/learning/learning-angular-25357291/learning-angular?resume=false&u=262938922",
+      "review": "Pretty straightforward and provides flexibility with dynamic inputs and validation.",
+      "tags": ["angular", "forms", "reactive"],
+      "codeSnippet": "this.form = new FormGroup({ name: new FormControl('') });",
+      "img": "favicon.ico"
+    }
+  ],
+  "users": [
+    {
+      "id": 1751315086530,
+      "name": "Moe",
+      "email": "maholder@pulte.com",
+      "committedCourseIds": [null]
+    }
+  ],
+  "agileEvents": [
+    {
+      "id": 101,
+      "title": "Sprint Planning",
+      "items": [
+        "Team Sync",
+        "Sprint Goal Definition",
+        "Review Product Backlog",
+        "Select Work for the Sprint",
+        "Task Breakdown",
+        "Commitment to work"
+      ]
+    },
+    {
+      "id": 102,
+      "title": "Daily Stand-up",
+      "items": [
+        "15-minute team sync",
+        "What was accomplished yesterday",
+        "What is planned for today",
+        "Any blockers or issues"
+      ]
+    },
+    {
+      "id": 103,
+      "title": "Refinement",
+      "items": [
+        "Review Details",
+        "Acceptance Criteria",
+        "Implementation Analysis",
+        "Estimation of Work",
+        "Agree on Story Points",
+        "Testing Considerations"
+      ]
+    },
+    {
+      "id": 104,
+      "title": "Retrospective",
+      "items": [
+        "Sprint Demo",
+        "What went Well",
+        "What didn't Go Well",
+        "What can we Improve",
+        "Action Items"
+      ]
+    }
+  ],
+  "azureStages": [
+    {
+      "id": 1,
+      "stage": "New Work Item",
+      "steps": [
+        "A new user story, bug, or feature is created in Azure Boards.",
+        "Work items are documented with a clear title, detailed description, and acceptance criteria.",
+        "The item is categorized (e.g., User Story, Bug, Task, Epic) based on the work type.",
+        "The team assigns a priority, sets the area and iteration paths, and adds relevant tags for classification.",
+        "The work item remains in this state until it is reviewed and approved for development."
+      ]
+    },
+    {
+      "id": 2,
+      "stage": "Approved",
+      "steps": [
+        "The work item is reviewed by the team during backlog refinement meetings.",
+        "Effort is estimated using story points.",
+        "Acceptance criteria and requirements are validated and finalized.",
+        "The item is prioritized, approved, and marked as 'Ready for Development'."
+      ]
+    },
+    {
+      "id": 3,
+      "stage": "In Dev Progress",
+      "steps": [
+        "Pull the latest updates from the main branch to ensure your environment is current.",
+        "Navigate to Azure Repos and create a new branch for your work.",
+        "Use the appropriate naming convention: 'feature/' for new functionality or 'bug/' for fixes.",
+        "Name the branch as: [user-story-id]-[three-word-description] (e.g., 1234-update-user-profile).",
+        "Fetch and switch to the new branch in VS Code using Git or terminal.",
+        "Begin development work in your local environment.",
+        "Use the QA environment link to simulate staging or test with QA-specific data.",
+        "Use Sales Agreement Numbers provided for QA testing, or query the database to generate them.",
+        "Preview your changes locally using the correct sales agreement to simulate a full user flow.",
+        "Run and ensure all unit tests pass before committing your changes.",
+        "Definition of Done (DoD): The user story must meet all acceptance criteria.",
+        "Commit your changes with a clear message and push the branch to Azure Repos.",
+        "Move the work item in Azure Boards to ‘In Pull Request’."
+      ]
+    },
+    {
+      "id": 4,
+      "stage": "In PR",
+      "steps": [
+        "Create a pull request (PR) in Azure Repos with the title format: WI [user story number] | [short title of user story].",
+        "Write a clear PR description using bullet points:",
+        "  - What was changed (summary of implementation).",
+        "  - How to test the changes (QA steps, specific data, or environment notes).",
+
+        "Peer Review Process:",
+        "  - Teammates review the code, pull it locally if needed, and provide comments.",
+        "  - If any issues are found, developers fix them and push changes to the same branch.",
+        "  - Once all Code Review (CR) comments are addressed, the PR is approved and ready for merging."
+      ]
+    },
+    {
+      "id": 5,
+      "stage": "Ready for QA Deployment",
+      "steps": [
+        "PR has been approved and merged into the main or staging branch.",
+        "QA environment is updated with the latest changes.",
+        "Test cases are reviewed and confirmed with the QA team."
+      ]
+    },
+    {
+      "id": 6,
+      "stage": "In QA",
+      "steps": [
+        "Test cases are reviewed with the QA team to ensure coverage of the user story and potential edge cases.",
+        "QA engineers validate the feature against the acceptance criteria.",
+        "If needed, regression testing is performed to ensure existing functionality is unaffected.",
+        "Any bugs found during QA are documented and linked back to the original work item or new bugs are created.",
+        "Once QA testing is complete and all issues are resolved, the item is marked as 'QA Passed'."
+      ]
+    },
+    {
+      "id": 7,
+      "stage": "Done",
+      "steps": [
+        "All relevant documentation (e.g., user guides, tech wikis) is reviewed and updated.",
+        "The work item has passed QA testing and satisfies all aspects of the team's Definition of Done (DoD).",
+        "The Azure Boards work item is marked as 'Done' to reflect completion."
+      ]
+    }
+  ]
+}
