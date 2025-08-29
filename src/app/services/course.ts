@@ -10,7 +10,7 @@ import { User } from '../models/user.model';
 export class CourseService {
   constructor(private http: HttpClient) {}
 
-  private baseUrl = 'http://localhost:3000';
+  private baseUrl = 'https://atlas-dashboard-fevb.onrender.com';
 
   getCourses(description?: string | null): Observable<Course[]> {
     let url = `${this.baseUrl}/courses`;
