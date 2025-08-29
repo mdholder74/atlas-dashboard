@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "intern-atlas": {
+    "atlas-dashboard": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -66,10 +66,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "intern-atlas:build:production"
+              "buildTarget": "atlas-dashboard:build:production"
             },
             "development": {
-              "buildTarget": "intern-atlas:build:development"
+              "buildTarget": "atlas-dashboard:build:development"
             }
           },
           "defaultConfiguration": "development"
