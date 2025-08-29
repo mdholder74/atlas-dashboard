@@ -2,6 +2,7 @@ const express = require("express"); // Express framework for building web server
 const cors = require("cors"); // Middleware to enable Cross-Origin Resource Sharing. Allows the server to accept requests from different origins like a frontend application as Angular or React..
 const fs = require("fs"); // File system module for reading/writing files
 const path = require("path"); // Utility for helping build paths in a safe way across different operating systems
+const { version } = require("os");
 
 const app = express(); // Create an Express application instance
 app.use(cors()); // Enable CORS for all routes
@@ -24,6 +25,17 @@ function saveData(data) {
   fs.writeFileSync(DB_FILE, JSON.stringify(data, null, 2));
 }
 
+// Welcome route
+app.get("/", (req, res) => {
+  res.json({
+    message: "Courses Backend API",
+    version: "1.0.0",
+    endpoints: {
+      "/courses": "GET all courses",
+      "/courses/:id": "GET a course by ID",
+    },
+  });
+});
 // Route to get all courses
 app.get("/courses", (req, res) => {
   try {
